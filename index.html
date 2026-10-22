@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore cameras, photography inspiration, and camera products at FocusFrame Cameras.">
+    <title>Home | Luna & Lens</title>
+    <link rel="stylesheet" href="CSS/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <!-- NAVIGATION SECTION WITH BOOTSTRAP NAVBAR -->
+        <section>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="navbar-brand-wrap">
+                        <img class="navbar-logo" src="images/logo.png" alt="logo">
+                        <a class="navbar-brand" href="index.html">Luna & Lens</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+                </nav>
+        </section>
+
+        <!-- ABOUT / HERO SECTION WITH BOOTSTRAP CAROUSEL -->
+        <section id="about" class="container py-5" style="margin-bottom: 30px;">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold">Capture Every Moment</h1>
+                    <p class="lead">Discover cameras that bring your creative vision to life. From everyday memories to professional photography, find the right camera for every moment.</p>
+                    <a href="products.html" class="btn btn-success btn-lg">Explore Cameras</a>
+                </div>
+                <div class="col-lg-6">
+                    <div id="cameraCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#cameraCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#cameraCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#cameraCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded shadow">
+                            <div class="carousel-item active"><img src="images/carousel.1.jpg" class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="images/carousel.2.jpg" class="d-block w-100"></div>
+                            <div class="carousel-item"><img src="images/carousel_img.jpg" class="d-block w-100" ></div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#cameraCarousel" data-bs-slide="prev" aria-label="Previous slide"><span class="carousel-control-prev-icon"></span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#cameraCarousel" data-bs-slide="next" aria-label="Next slide"><span class="carousel-control-next-icon"></span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+        <section id="products" class="container py-5" style="background-color: #eaf1ec; border-radius: 18px; margin-bottom: 30px;">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">Featured Products</h2>
+                    <p>Explore our latest collection of premium products crafted for quality and style.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/best_seller.jpg" class="card-img-top" alt="Best Sellers">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Best Sellers</h5>
+                                <p class="card-text">Discover our top-rated customer favorites designed for everyday excellence.</p>
+                                <a href="shop.html" class="btn btn-outline-success mt-auto">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/new_arrival.jpg" class="card-img-top" alt="New Arrivals">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">New Arrivals</h5>
+                                <p class="card-text">Stay ahead of the trend with our latest collection and fresh designs.</p>
+                                <a href="shop.html" class="btn btn-outline-success mt-auto">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/exclusive_deals.jpg" class="card-img-top" alt="Exclusive Deals">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Special Offers</h5>
+                                <p class="card-text">Get high-quality gear at unbeatable prices with our limited-time discounts.</p>
+                                <a href="shop.html" class="btn btn-outline-success mt-auto">Shop Deals</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="container py-5" style="background-color: #dfe9e2; border-radius: 18px; margin-bottom: 30px;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">What Our Creators Say</h2>
+                <p class="text-muted">Real insights from photographers, vloggers, and everyday storytellers.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="text-warning">★★★★★</span>
+                            </div>
+                            <p class="card-text text-muted flex-grow-1">“The dynamic range on the mirrorless body is incredible. I captured tack-sharp mountain landscapes at sunrise, and the color science required almost no post-processing adjustments.”</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="images/my_profile.png" alt="Luna B." class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                <div>
+                                    <h6 class="fw-bold mb-0">Luna B.</h6>
+                                    <small class="text-muted">Travel Photographer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="text-warning">★★★★★</span>
+                            </div>
+                            <p class="card-text text-muted flex-grow-1">“The real-time eye tracking autofocus is a game-changer for my solo vlogs. Even when moving around quickly in low-light studio settings, the lens stays locked onto the subject perfectly.”</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="images/profile.jpg" alt="Lorena B." class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                <div>
+                                    <h6 class="fw-bold mb-0">Lorena B.</h6>
+                                    <small class="text-muted">Content Creator</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="text-warning">★★★★★</span>
+                            </div>
+                            <p class="card-text text-muted flex-grow-1">“Swapping between the prime lens for portraits and the telephoto zoom for event projects is completely seamless. The battery life easily lasted through an entire six-hour shoot.”</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="images/profile3.jpg" alt="Kyla W." class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                <div>
+                                    <h6 class="fw-bold mb-0">Kyla W.</h6>
+                                    <small class="text-muted">Indie Filmmaker</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="container py-5" style="background-color: #edf3ee; border-radius: 18px; margin-bottom: 30px;">
+            <div class="container">
+                <div class="text-center mb-4"><h2 class="fw-bold">Photography Gallery</h2><p>A glimpse of what you can capture with the right camera.</p></div>
+                <div class="row g-4">
+                    <div class="col-md-4"><div class="card h-100 shadow-sm"><img src="images/landscape.jpg" class="card-img-top" alt="Landscape photo"><div class="card-body"><h5 class="card-title">Nature</h5><p class="card-text">Discover the details and colors of the natural world.</p></div></div></div>
+                    <div class="col-md-4"><div class="card h-100 shadow-sm"><img src="images/portrait.jpg" class="card-img-top" alt="Portrait photo"><div class="card-body"><h5 class="card-title">Portraits</h5><p class="card-text">Capture personality and emotion in every frame.</p></div></div></div>
+                    <div class="col-md-4"><div class="card h-100 shadow-sm"><img src="images/street.jpg" class="card-img-top" alt="Street photo"><div class="card-body"><h5 class="card-title">Street Moments</h5><p class="card-text">Tell stories through everyday scenes and city life.</p></div></div></div>
+                </div>
+                <div class="text-center mt-4"><a href="gallery.html" class="btn btn-success">View Full Gallery</a></div>
+            </div>
+        </section>
+
+        <section class="container py-5 text-center" style="margin-bottom: 30px;">
+            <h2 class="fw-bold">Need Help Choosing a Camera?</h2>
+            <p>Contact us for product questions and camera information.</p>
+            <a href="contact.html" class="btn btn-success">Contact Us</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-left">
+                <span class="footer-brand">Luna<span> & Lens</span></span>
+                <p>© 2026 3rd Yr |BSIT |WST_Final_Exam</p>
+            </div>
+            <div class="footer-links">
+                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="products.html">Products</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+            <div>
+                <a href="#" class="back-top">Back to top ↑</a>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
